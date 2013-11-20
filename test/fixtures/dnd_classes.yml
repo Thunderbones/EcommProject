@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  BaB: 1
+  HD: 1
+  baseFort: 1
+  baseRflx: 1
+  baseWill: 1
+  skillPointBase: 1
+  spells: MyString
+
+two:
+  name: MyString
+  description: MyString
+  BaB: 1
+  HD: 1
+  baseFort: 1
+  baseRflx: 1
+  baseWill: 1
+  skillPointBase: 1
+  spells: MyString
