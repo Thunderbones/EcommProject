@@ -3,11 +3,11 @@
 one:
   name: MyString
   description: MyString
-  abilityScoreBonus: 1
-  abilityScorePenalty: 1
+  abilityScoreBonus: MyString
+  abilityScorePenalty: MyString
 
 two:
   name: MyString
   description: MyString
-  abilityScoreBonus: 1
-  abilityScorePenalty: 1
+  abilityScoreBonus: MyString
+  abilityScorePenalty: MyString
