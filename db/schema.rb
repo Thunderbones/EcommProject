@@ -11,30 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131120193630) do
-
-  create_table "dn_d_classes", :force => true do |t|
-    t.string   "name"
-    t.string   "description"
-    t.integer  "BaB"
-    t.integer  "HD"
-    t.integer  "baseFort"
-    t.integer  "baseRflx"
-    t.integer  "baseWill"
-    t.integer  "skillPointBase"
-    t.string   "spells"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
-  end
+ActiveRecord::Schema.define(:version => 20131122143632) do
 
   create_table "dnd_classes", :force => true do |t|
     t.string   "name"
     t.string   "description"
-    t.integer  "BaB"
-    t.integer  "HD"
-    t.integer  "baseFort"
-    t.integer  "baseRflx"
-    t.integer  "baseWill"
+    t.decimal  "Bab"
+    t.integer  "Hd"
+    t.decimal  "baseFort"
+    t.decimal  "baseRflx"
+    t.decimal  "baseWill"
     t.integer  "skillPointBase"
     t.string   "spells"
     t.datetime "created_at",     :null => false

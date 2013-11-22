@@ -3,21 +3,21 @@
 one:
   name: MyString
   description: MyString
-  BaB: 1
-  HD: 1
-  baseFort: 1
-  baseRflx: 1
-  baseWill: 1
+  Bab: 9.99
+  Hd: 1
+  baseFort: 9.99
+  baseRflx: 9.99
+  baseWill: 9.99
   skillPointBase: 1
   spells: MyString
 
 two:
   name: MyString
   description: MyString
-  BaB: 1
-  HD: 1
-  baseFort: 1
-  baseRflx: 1
-  baseWill: 1
+  Bab: 9.99
+  Hd: 1
+  baseFort: 9.99
+  baseRflx: 9.99
+  baseWill: 9.99
   skillPointBase: 1
   spells: MyString
