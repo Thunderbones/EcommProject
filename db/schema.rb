@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131122152100) do
+ActiveRecord::Schema.define(:version => 20131125193627) do
 
   create_table "dnd_classes", :force => true do |t|
     t.string   "name"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(:version => 20131122152100) do
     t.string   "abilityScorePenalty"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+    t.integer  "speed"
+    t.integer  "size"
   end
 
 end
