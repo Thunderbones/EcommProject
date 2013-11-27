@@ -1,0 +1,116 @@
+Database Table: Characters
+
+Model: Character
+-id: Primary Key
+-Name: The Character's Name
+-Level: The Character's Level
+-Class: The Character's Class
+-Race: The Character's Race
+
+Database Table: Classes
+
+Model: Class
+-id: Primary Key
+-Name: The name of the class
+-Description: A description of the class
+-BaB: Base Attack Bonus
+-HD: The class hit dice
+-Base Fort: The Base Saving throw bonus
+-Base Rflx: The Base Saving throw bonus
+-Base Will: The Base Saving throw bonus
+-Skill Point Base: The amount of skill points derived from class per level
+-Spells: The spell casting type for the class(If any)
+
+List of Classes:
+-Barbarian
+-Bard
+-Cleric
+-Druid
+-Fighter
+-Monk
+-Paladin
+-Ranger
+-Rogue
+-Wizard
+-Sorcerer
+
+Database Table: Races
+
+Model: Race
+-id: Primary Key
+-Name: The name of the race
+-Description: A description of the race
+-Size: The size of the race(REMEMBER TO ADD THIS)
+-Speed: The speed of the race(REMEMBER TO ADD THIS)
+-Ability Score Bonus: Which ability score gets the bonus(If any)
+-Ability Score Penalty: Which ability score gets the penalty(If any)
+
+List of Races:
+-Human
+-Dwarf
+-Elf
+-Gnome
+-Half_Elf
+-Half_Orc
+-Halfling
+
+Database Table: Skills
+
+Model: Skill
+-id: Primary Key
+-Name: The skill name
+-Description: A short description of the skill
+
+Database Table: Feats
+
+Model: Feat
+-id: Primary Key
+-Name: The feat name
+-Description: A description of the feat
+
+Database Table: Weapons
+
+Model: Weapon
+-id: Primary Key
+-Name: The name of the Weapon
+-Description: A description of the weapon and it's other features
+-Damage: The amount of damage the weapon deals
+-Damage_Small: The amount of damage the weapon deals for small characters
+-Cost: The cost of the weapon
+-Crit_Chance:
+-Crit_Damage: The critical modifier
+-Range_Increment: The distance a weapon can be thrown or shot from per increment
+-Damage_Type: The type of damage dealt
+-Weight: The weight of the weapon
+
+List:
+-Longsword
+-Short_sword
+
+Database Table: Armours
+
+Model: Armour
+-id: Primary Key
+-Name: The name of the Armour
+-Description: A description of the armour and it's other features
+-Armour Type: The type of armour(Light, Medium, Heavy)
+-AC: The armour bonus the armour provides
+-Cost: The cost of the armour
+-Dex_Bonus: The maximum dexterity bonus allowed in that armour
+-ACP: The armour check penalty on skills
+-APFC: The armour spell failure chance
+-Weight: The weight of the armour
+
+List:
+-Padded
+-Leather
+-Studded_Leather
+-Chain_Shirt
+-Hide
+-Scale_Mail
+-Chain_Mail
+-Breastplate
+-Splint_Mail
+-Banded_Mail
+-Half_Plate
+-Full_Plate

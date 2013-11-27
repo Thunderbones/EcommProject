@@ -1,0 +1,2 @@
+class DndCharactersController < ApplicationController
+end

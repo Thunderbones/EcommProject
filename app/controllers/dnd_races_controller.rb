@@ -1,0 +1,2 @@
+class DndRacesController < ApplicationController
+end
